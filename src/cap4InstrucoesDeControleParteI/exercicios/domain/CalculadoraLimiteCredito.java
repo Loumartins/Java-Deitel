@@ -16,6 +16,7 @@ public class CalculadoraLimiteCredito {
             System.out.println("Limite de credito nao excedido");
             return false;
         } else
+            System.out.println("Limite excedido");
             return true;
     }
 }
